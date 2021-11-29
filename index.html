@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List (Pure Vanilla JS)</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="add-list-container" id="add-container">
+            <span><i id="document" class="fas fa-file-invoice text-center"></i></span>
+            <input type="text" id="input-list" placeholder="Type your Todo List here" name="input-list" class="input-todo-list">
+            <button style="top: 25px;" class="btn" id="add-list">
+                <i class="fas fa-plus-circle"></i>
+            </button>
+        </div>
+
+        <div class="instructions">
+                <span><img src="./images/double_tick.jpg" alt=""></span>
+                <button id="complete-all-tasks">Complete all tasks</button>
+                <button id="clear-completed-tasks">Clear completed</button>
+        </div>
+
+        <ul class="all-todo-list" id="list-items"></ul>
+        
+        <div class="instructions top">
+            <span id="task-pending">0 tasks left</span>
+            <button id="uncomplete-completed"><b>All</b> Uncomplete Completed</button>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="https://kit.fontawesome.com/e62f64bff0.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+

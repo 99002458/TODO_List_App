@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: burlywood;
+}
+
+.container{
+    margin: 2% 0%;
+    height: auto;
+    width: 36%;
+    position:absolute;
+    left: 32%;
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.add-list-container{
+    margin:10px;
+    margin-bottom: none;
+    display: flex;
+    height: 55px;
+    width: auto;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+.input-todo-list{
+    border:none;
+    background-color: #eeeeee;
+    position: relative;
+    left: 5%;
+    font-size: 1.5rem;
+}
+
+.all-todo-list{
+    height: auto;
+    border-top: 0.8px solid rgb(199, 194, 194) ;
+    border-bottom: 0.8px solid rgb(199, 194, 194);
+    padding: 0px 10px;
+}
+
+.each-item-list-container{
+    background-color: rgb(226, 223, 225);
+    border-radius: 5px;
+}
+
+.each-list-item{
+    text-align: start;
+    list-style: none;
+    margin: 10px 20px;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+
+.delete-list {
+    display: none;
+}
+  
+.btn{
+   border: none;
+   background-color:transparent;
+   position: absolute;
+   left: 90%;
+   /* top: 25px; */
+   display: none;
+   font-size: 1.3rem;
+}
+#document{
+    font-size: 1.5rem;
+}
+
+.add-list-container:hover {
+    box-shadow: 0px 0px 30px 2px grey;
+}
+/*  */
+.instructions{
+    height: 10px;
+    font-size: 1rem;
+    opacity: 0.6;
+    display: flex;
+    padding: 0px px;
+    justify-content: space-between;
+    margin: 10px 5px;
+    position: relative;
+}
+
+.top{
+    top: -6px;
+}
+
+img{
+    height: 20px;
+    width: 25px;
+}
+
+#complete-all-tasks{
+    position: absolute;
+    left: 45px;
+    /* top: 75px; */
+}
+
+#complete-all-tasks:hover{
+    color:rgb(204, 46, 7);
+    opacity: 1;
+}
+
+ /* Common class for aligning dicument logo at right place */
+.text-center{
+    vertical-align: middle;
+    position: relative;
+    top: 25%;
+    left: 60%;
+} 
+
+input:focus {
+    outline: none;
+}
+
+.navigator{
+    display: flex;
+}
+
+/* All buttons are modified as per requirement */
+button{
+    border: none;
+    background-color:#ffffff;
+    opacity: 0.9;
+    cursor: pointer;
+}
